@@ -1,0 +1,19 @@
+---
+info:
+  title: Komand Pyotrs
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/komand-PyOTRS
+  x-cortex-tag: komand-pyotrs
+  x-cortex-type: service
+  x-cortex-groups:
+  - target:eks
+  - strategy:cloud
+  - exposure:internal-ship
+  - status:deprecated
+  x-cortex-domain-parents:
+  - tag: insightconnect
+openapi: 3.0.1
+servers:
+- url: "/"
